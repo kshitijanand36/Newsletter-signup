@@ -52,7 +52,7 @@ app.post("/" , function(req , res){
     //these values are specified in the documentation
     method : "POST",
     //authorization , requires username(which could be any string) and password(api key)
-    auth: "kshitij:08f6c195d94c5a35e6c0f177d39c9dfe-us7",
+    auth : "kshitij:api" //the api key has been hidden due to security resons
   }
 
   //using above in our https request
@@ -88,9 +88,3 @@ app.listen(process.env.PORT , function(){
   console.log("Server started at port 3000");
 });
 
-//API KEY
-//08f6c195d94c5a35e6c0f177d39c9dfe-us7
-
-
-//list id
-//6f8dcca163
